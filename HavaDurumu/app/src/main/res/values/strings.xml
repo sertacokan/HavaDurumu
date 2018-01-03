@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hava Durumları</string>
+    <string name="yeni_ekle">Yeni Ekle</string>
+    <string name="ara">Ara</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="sil">Sil</string>
+    <string name="searchview_hint">Şehir Adı</string>
+    <string name="gun_sayisi_title">Gün Sayısı</string>
+    <string name="gun_sayisi_summary">Görmek İstediğiniz Toplam Hava Durumu  Gün Sayısı</string>
+
+    <string-array name="havaDurumuGunSayisi">
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+</resources>

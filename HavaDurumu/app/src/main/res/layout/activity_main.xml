@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clear"
+    tools:context="com.sertac.sertac.havadurumu.ui.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="@color/texts_color"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/bottomMenu">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/delete"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/deleteCity"/>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:ci_orientation="horizontal"
+            app:ci_gravity="center"
+            app:ci_drawable="@color/blackColor"
+            app:ci_drawable_unselected="@color/cardview_dark_background"
+            android:id="@+id/baseViewPagerIndicator"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/add"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/addNewCity"/>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/baseFragmentPager"
+        android:layout_below="@id/mainToolbar"
+        android:layout_above="@id/bottomMenu">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_fragment_layout_padding">8dp</dimen>
+    <dimen name="base_fragment_temperature_textsize">50sp</dimen>
+    <dimen name="cardviews_margin">1dp</dimen>
+    <dimen name="main_grid_cardview_corner">8dp</dimen>
+    <dimen name="search_cardview_padding">8dp</dimen>
+    <dimen name="currently_cardiview_radius">0dp</dimen>
+    <dimen name="base_fragment_margin">3dp</dimen>
+</resources>
